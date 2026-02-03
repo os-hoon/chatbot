@@ -26,6 +26,10 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	// 웹 프로젝트용 기본 의존성 (RestTemplate)
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	//lombok
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
