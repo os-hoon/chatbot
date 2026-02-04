@@ -1,0 +1,1 @@
+package com.example.chatbot.entity;import com.example.chatbot.common.entity.BaseTime;/** * user 엔티티 * * @author : 오승훈 * @fileName : User * @since : 2026-02-04 */public class User extends BaseTime {}

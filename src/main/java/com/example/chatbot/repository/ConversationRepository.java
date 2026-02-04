@@ -1,0 +1,1 @@
+package com.example.chatbot.repository;/** * conversation 리파지토리 * * @author : 오승훈 * @fileName : ConversationRepository * @since : 2026-02-04 */public interface ConversationRepository {}

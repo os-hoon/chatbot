@@ -1,0 +1,1 @@
+package com.example.chatbot.config;/** * ai 관련 설정 클래스 * * @author : 오승훈 * @fileName : OpenAIConfig * @since : 2026-02-04 */public class OpenAIConfig {}

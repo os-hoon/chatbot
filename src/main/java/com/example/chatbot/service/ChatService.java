@@ -1,0 +1,1 @@
+package com.example.chatbot.service;/** * 채팅관련 서비스 코드입니다 * * @author : 오승훈 * @fileName : ChatService * @since : 2026-02-03 */public class ChatService {}
