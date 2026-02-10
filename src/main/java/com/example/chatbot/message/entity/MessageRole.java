@@ -1,0 +1,1 @@
+package com.example.chatbot.message.entity;/** * 메시지 구분 상수 * USER : 사용자가 입력한 질문/요청 * ASSISTANT: AI가 생성한 응답 * * @author : 오승훈 * @fileName : MessageRole * @since : 2026-02-04 */public enum MessageRole {  USER,      //사용자가 보낸 메시지  ASSISTANT  // AI(챗봇)가 보낸 메시지}

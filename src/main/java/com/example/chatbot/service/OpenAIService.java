@@ -1,1 +1,0 @@
-package com.example.chatbot.service;/** * openai 관련 서비스 코드 * * @author : 오승훈 * @fileName : OpenAIService * @since : 2026-02-03 */public class OpenAIService {}

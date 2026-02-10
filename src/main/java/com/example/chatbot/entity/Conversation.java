@@ -1,1 +1,0 @@
-package com.example.chatbot.entity;/** * conversation 엔티티 * * @author : 오승훈 * @fileName : Conversation * @since : 2026-02-04 */public class Conversation {}
