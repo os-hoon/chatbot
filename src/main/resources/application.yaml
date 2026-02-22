@@ -18,3 +18,7 @@ openai:
 api:
   key: ${API_KEY}
 
+jwt:
+  secret: ${JWT_KEY}
+  expiration: 86400000  # 24시간
+
