@@ -37,6 +37,18 @@ dependencies {
 	
 	//루트에 존재하는 env 파일 읽기 위해
 	implementation 'me.paulschwarz:spring-dotenv:4.0.0'
+
+	//로그인 회원가입 위한 의존성들
+	// Spring Security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+	// JWT
+	implementation 'io.jsonwebtoken:jjwt-api:0.12.3'
+	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.12.3'
+	runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.12.3'
+
+	// Validation
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	
 	// MySQL Driver(3.xx 버전 이상부터는 무조건 있어야 한다?)
 	runtimeOnly 'com.mysql:mysql-connector-j'

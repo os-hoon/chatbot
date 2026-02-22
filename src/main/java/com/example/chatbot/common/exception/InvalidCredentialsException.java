@@ -1,0 +1,1 @@
+package com.example.chatbot.common.exception;/** * 잘못된 아이디 비밀번호 입력 예외 * * @author : 오승훈 * @fileName : InvalidCredentialsException * @since : 2026-02-22 */public class InvalidCredentialsException extends BusinessException {  public InvalidCredentialsException() {    super(ErrorCode.INVALID_CREDENTIALS);  }}
