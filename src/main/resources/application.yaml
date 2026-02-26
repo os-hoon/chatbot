@@ -1,25 +1,12 @@
 spring:
   application:
     name: chatbot
-  datasource:
-    url: jdbc:mysql://${DB_SERVER}:${DB_PORT}/chatbot?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
-    username: ${DB_USER}
-    password: ${DB_PASS}
-    driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
 
-openai:
-  api-key: ${OPENAI_API_SECRET_KEY}
-  api-url: https://api.openai.com/v1/chat/completions # GPT 대화용 API URL
-  model: gpt-3.5-turbo
-
-api:
-  key: ${API_KEY}
-
 jwt:
-  secret: ${JWT_KEY}
   expiration: 86400000  # 24시간
 
 springdoc:
@@ -31,4 +18,3 @@ springdoc:
     operations-sorter: alpha
   default-consumes-media-type: application/json
   default-produces-media-type: application/json
-
