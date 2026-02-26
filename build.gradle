@@ -29,8 +29,11 @@ dependencies {
 	// 웹 프로젝트용 기본 의존성 (RestTemplate)
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
-	//mysql 의존성 추가
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+//	//mysql 의존성 추가
+//	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	// PostgreSQL 드라이버 추가 ← 변경
+	runtimeOnly 'org.postgresql:postgresql'
 
 	// Spring Data JPA
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
