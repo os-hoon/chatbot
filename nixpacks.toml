@@ -8,4 +8,4 @@ cmds = [
 ]
 
 [start]
-cmd = "java -jar build/libs/*.jar"
+cmd = "java -jar build/libs/*SNAPSHOT.jar"
